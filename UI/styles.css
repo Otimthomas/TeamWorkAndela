@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+  
+a {
+  text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+  
+.clear {
+  clear: both;
+}
+  
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+  /* Header  */
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+  
+.header-left {
+  float: left;
+}
+
+.header-left p {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 10px;
+}
+  
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right ul li a {
+    margin-top: -15px;
+    padding: 0 25px;
+    height: 65px;
+    color: white;
+    float: right;
+    display: block;
+    line-height: 65px;
+    transition: all 0.8s;
+}
+  
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+  
+/* Form */
+.form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: 0 5px 6px #c1ced7;
+}
+
+.form p {
+  color: rgba(34, 49, 52, 0.9);
+}
+
+.form-heading {
+    /* margin-top: 200px; */
+  font-weight: 300;
+  margin: 60px 0 20px;
+  font-size: 48px;
+  color: #bcc8d4;
+}
+
+.form-body {
+  padding: 30px;
+}
+
+.isRequired {
+  padding-left: 5px;
+  color: red;
+}
+
+.form input {
+  width: 100%;
+  border: 1px solid #d8dadf;
+  padding: 10px;
+  color: #57575f;
+  font-size: 16px;
+  letter-spacing: 2px;
+  border-radius: 2px;
+}
+
+.form textarea {
+  width: 100%;
+  min-height: 150px;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+button {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  font-weight: 300;
+  padding: 15px;
+  width: 120px;
+  border-radius: 5px;
+  margin-top: 8px;
+  margin-bottom: 0;
+  float: right;
+  box-shadow: 0 2px gray;
+}
+
+button:active {
+  position: relative;
+  top: 2px;
+  box-shadow: none;
+}
+
+.form-body:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.form-container {
+  max-width: 600px;
+  margin: 100px auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  clear: both;
+}
+  
