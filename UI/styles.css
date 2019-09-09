@@ -2,10 +2,14 @@
     box-sizing: border-box;
   }
   
-body {
-  margin: 0;
-  font-family: "Lucida Grande";
-}
+  body {
+    margin: 0;
+    font-family: "Lucida Grande";
+    background-image: url("./imag.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
   
 a {
   text-decoration: none;
