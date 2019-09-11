@@ -34,10 +34,16 @@
     }
 
     .header-right ul li a {
-    line-height: 30px;
+    line-height: 65px;
       font-size: 12px;
       margin: 0;
       padding: 0 5px;
+      min-width: 50px;
+      text-align: center;
+    }
+
+    .header-right ul li {
+      margin-top: -20px;
     }
 
     .form {

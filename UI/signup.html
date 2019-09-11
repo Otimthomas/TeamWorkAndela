@@ -30,23 +30,28 @@
         <div class="form users-form">
             <div class="form-body">
                 <form>
-                <p>First Name<span class="isRequired">*</span></p>
-                <input type="text" name="name">
-                <p>Last Name<span class="isRequired">*</span></p>
-                <input type="text" name="name">
-                <p>Email<span class="isRequired">*</span></p>
-                <input type="email" name="email">
-                <p>Password<span class="isRequired">*</span></p>
-                <input type="password" name="password">
-                <p>Gender<span class="isRequired">*</span></p>
-                <input type="text" name="gender">
-                <p>Job Role<span class="isRequired">*</span></p>
-                <input type="text" name="jobrole">
-                <p>department<span class="isRequired">*</span></p>
-                <input type="text" name="department">
-                <p>Address<span class="isRequired">*</span></p>
-                <input type="text" name="address">
-                <button>Sign Up</button>
+                    <p>First Name<span class="isRequired">*</span></p>
+                    <input type="text" name="firstName" placeholder="first name" autofocus required>
+                    <p>Last Name<span class="isRequired">*</span></p>
+                    <input type="text" name="LastName" placeholder="last name" required>
+                    <p>Email<span class="isRequired">*</span></p>
+                    <input type="email" name="email" placeholder="example@gmail.com">
+                    <p>Password<span class="isRequired">*</span></p>
+                    <input type="password" name="password" placeholder="password">
+                    <p>Gender<span class="isRequired">*</span></p>
+                    <input type="text" list="gender" name="gender" placeholder="select your gender">
+                    <datalist id="gender">
+                      <option value="Male"></option>
+                      <option value="Female"></option>
+                    </datalist>
+                    <p>Job Role<span class="isRequired">*</span></p>
+                    <input type="text" name="jobrole" placeholder="job role">
+                    <p>Department<span class="isRequired">*</span></p>
+                    <input type="text" name="department" placeholder="department">
+                    <p>Address<span class="isRequired">*</span></p>
+                    <input type="text" name="address" placeholder="address">
+                    <p><span class="isRequired">* Required</span></p>
+                    <button>Sign Up</button>
                 </form>
             </div>
         </div>

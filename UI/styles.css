@@ -81,6 +81,8 @@ header {
   margin: 0 auto;
   background-color: white;
   box-shadow: 0 5px 6px #c1ced7;
+  border: 1px solid gray;
+  border-radius: 10px;
 }
 
 .form p {
@@ -92,7 +94,8 @@ header {
   font-weight: 300;
   margin: 60px 0 20px;
   font-size: 48px;
-  color: #bcc8d4;
+  color: white;
+  /* color: #bcc8d4; */
 }
 
 .form-body {
@@ -111,7 +114,11 @@ header {
   color: #57575f;
   font-size: 16px;
   letter-spacing: 2px;
-  border-radius: 2px;
+  border-radius: 5px;
+}
+
+::placeholder {
+  font-size: 15px;
 }
 
 .form textarea {
@@ -125,20 +132,18 @@ button {
   background-color: red;
   color: white;
   cursor: pointer;
-  font-weight: 300;
+  font-weight: bold;
   padding: 15px;
   width: 120px;
   border-radius: 5px;
   margin-top: 8px;
   margin-bottom: 0;
   float: right;
-  box-shadow: 0 2px gray;
 }
 
 button:active {
   position: relative;
   top: 2px;
-  box-shadow: none;
 }
 
 .form-body:after {
