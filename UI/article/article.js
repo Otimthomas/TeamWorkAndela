@@ -4,19 +4,19 @@ function getIdFromQuery() {
 };
 const API_URL = 'http://localhost:3000/api/articles/'
 
-const product_id = getIdFromQuery();
-console.log(product_id);
+const article_id = getIdFromQuery();
+console.log(article_id);
 
-const showProduct = (product) => {
-    console.log(product)
-    const article = document.querySelector('.article-show-item');
-    article.innerHTML = `
+const showArticle = (article) => {
+    console.log(article)
+    const art = document.querySelector('.article-show-item');
+    art.innerHTML = `
         <h1>
-        ${product.title}
+        ${article.title}
     </h1>
-    <p>${product.body}</p>
+    <p>${article.body}</p>
     <div class="article-time">
-        ${product.createdOn}
+        ${article.createdOn}
         <!-- Time will go here -->
     </div>
     <div class="article-menus">
@@ -30,10 +30,10 @@ const showProduct = (product) => {
     `
 }
 
-const getProduct = (id) => {
-    return fetch(API_URL + product_id)
+const getArticle = (id) => {
+    return fetch(API_URL + article_id)
         .then(res => res.json());
 }
 
-getProduct(product_id)
-    .then(showProduct);
+getArticle(article_id)
+    .then(showArticle);

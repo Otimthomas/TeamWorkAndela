@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Create_Article</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../responsive.css">
 </head>
+
 <body>
     <header>
         <div class="container">
             <div class="header-left">
-                    <p>TeamWork</p>
-                </div>
+                <p>TeamWork</p>
+            </div>
             <div class="header-right">
                 <ul>
                     <li>
@@ -22,8 +24,8 @@
                         <a href="./articles.html">Articles</a>
                     </li>
                 </ul>
-            </div> 
-        </div>       
+            </div>
+        </div>
     </header>
 
     <div class="form-container">
@@ -32,11 +34,11 @@
                 <h1 class="form-heading">Write an Article</h1>
                 <div class="form">
                     <div class="form-body">
-                        <form action="">
+                        <form>
                             <p>Article Title</p>
-                            <input type="text" required>
+                            <input name="title" type="text" required>
                             <p>Article Boby</p>
-                            <textarea name="content"></textarea>
+                            <textarea name="body"></textarea>
                             <button>Post</button>
                         </form>
                     </div>
@@ -44,5 +46,7 @@
             </div>
         </div>
     </div>
+    <script src="create.js"></script>
 </body>
+
 </html>
