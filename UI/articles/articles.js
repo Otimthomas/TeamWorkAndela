@@ -16,7 +16,7 @@ window.addEventListener('load', async () => {
         const arc = document.createElement('a');
         h1.appendChild(arc)
         div.classList.add('article-post');
-        arc.setAttribute('href', `articles/${article.id}`)
+        arc.setAttribute('href', `../article/article.html?id=${article.id}`)
         arc.innerText = article.title;
         div.appendChild(h1);
         a.appendChild(div);
