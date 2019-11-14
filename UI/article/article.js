@@ -21,7 +21,7 @@ const showArticle = (article) => {
     </div>
     <div class="article-menus">
         <!-- Here we have two links -->
-        <a href="#">Edit</a>
+        <a href="../edit/edit.html?id=${article.id}">Edit</a>
         <a href="./articles.html">Delete</a>
     </div>
     <div>
