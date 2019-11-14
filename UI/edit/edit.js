@@ -53,4 +53,10 @@ form.addEventListener('submit', (event) => {
             .then(res => res.json());
     }
     editArticle();
-})
+});
+
+// [x] The page should be in position to access the id from the queryParams.
+// [x] Use fetch to get a particular article using the id provided above.
+// [x] Populate the form using the data returned from the fetch.
+// [] After a successful edit, the user should be redirected back to the articles page.
+//

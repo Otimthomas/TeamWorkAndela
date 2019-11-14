@@ -37,3 +37,11 @@ const getArticle = (id) => {
 
 getArticle(article_id)
     .then(showArticle);
+
+
+// [] Page should access the id from the queryParams
+// [] Use the id to fetch to return a particular article
+// [] Populate the page with the article received form the fetch.
+// [] The comment link should redirect to the comment page.
+// [] The edit should redirect to the edit page.
+// [] The delete link should delete the article.

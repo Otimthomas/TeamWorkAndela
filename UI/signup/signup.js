@@ -42,7 +42,9 @@ form.addEventListener('submit', (event) => {
                 'Content-Type': 'application/json'
             }
         }).then(res => res.json())
-        .then(validate)
+        .then(validate);
+
+    //window.location('../articles/articles')
 })
 
 // my checklist

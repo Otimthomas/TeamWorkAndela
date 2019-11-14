@@ -28,4 +28,8 @@ form.addEventListener('submit', (event) => {
     }
 
     createArticle().then(d => console.log(d))
-})
+});
+
+// [x] Use formData to access the form object to be used in the fetch;
+// [x] Use POST fetch to create an article.
+// [] After a successful creation of an article, the user should be redirected to the articles page.

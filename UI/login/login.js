@@ -38,3 +38,7 @@ form.addEventListener('submit', (event) => {
         }).then(res => res.json())
         .then(validate);
 })
+
+// [] The token should be gotten from the headers
+// [] After login, the user should be directed to the home page
+// [] The user should not be in position to click the the back button and go back to the login page.

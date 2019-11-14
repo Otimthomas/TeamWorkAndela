@@ -40,19 +40,8 @@ window.addEventListener('load', async () => {
 
 });
 
-//console.log(articles);
-// articles.forEach(article => {
-//     console.log(article.title);
-// });
+
+// [] Use to fetch to return the articles that will be displayed on the page.
+// [] Every article should have a clickable title that redirects to the article page showing the details of the page.
 
 
-// const ar = [{
-//     title: 'hdlsln'
-// }, {
-//     title: 'kdkd'
-// }, {
-//     title: 'ehy'
-// }];
-// console.log(ar)
-
-//console.log('hey')
